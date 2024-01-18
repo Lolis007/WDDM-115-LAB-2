@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDDM 115-Exercise 1</title>
+</head>
+<body>
+    <header> <!--Added a header wiith links on it-->
+        <div class="header-content">
+            <div class="pages">
+                <h1>AISHA ABUBAKAR LADAN</h1>
+                <h1>Faith. Family. Travel</h1>
+            </div>
+            <nav class="nav-links"> 
+                <ul><!--Here i added links to the new pages on the website and made lists-->
+                    <li><a href="http://127.0.0.1:5500/html/index.html">HOME</a></li>
+                    <li><a href="http://127.0.0.1:5500/html/Aboutme.html">ABOUT ME</a></li>
+                    <li><a href="http://127.0.0.1:5500/html/Wedding.html">WEDDING</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+        <section>  <!--nested the div in semantic element-->
+            <main>
+    <div> <!--Added an image and its dimentions-->
+        <img src="https://i.postimg.cc/9QFfj16J/Meee.jpg" alt="Thats me" width="700" height="500">
+
+    </div>
+            </main>
+</section>
+   
+    <style> 
+        body {
+            background-color: gray;}  /* changed the websites background color*/
+
+        .header-content { /* header styling*/
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .pages {
+            text-align: left;
+        }
+
+        h1 { /* styling for header content */
+            color: white;
+            font-size: large;
+            margin: 0;
+        }
+
+        p {
+            text-align: center;
+            font-size: small;
+        }
+/* image styling*/
+        img {
+            display: block;
+            margin: 20px auto;
+         max-width: 100%;
+         height: auto;
+        }
+/* header styling*/
+        header {
+            background-color:rgba(55, 53, 53, 0.911);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px; 
+            min-height: 50px;
+        }
+
+        .nav-links {
+            margin-left: auto;
+        }
+
+        .nav-links ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links ul li {
+            padding: 8px 12px;
+            position: relative;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        
+    </style>
+  <!--<cite>https://www.w3schools.com/html/default.asp</cite>-->  
+</body>
+</html>
