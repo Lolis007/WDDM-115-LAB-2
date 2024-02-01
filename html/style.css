@@ -1,0 +1,70 @@
+        body {
+            background-color: gray;
+        color: whitesmoke;
+    }  /* changed the websites background color*/
+
+        .header-content { /* header styling*/
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .pages {
+            text-align: left;
+        }
+
+        h1 { /* styling for header content */
+            color: white;
+            font-size: large;
+            margin: 0;
+        }
+
+        p {
+            text-align: center;
+            font-size: small;
+        }
+/* image styling*/
+        img {
+            display: block;
+            margin: 20px auto;
+         max-width: 20%;
+         height: auto;
+        }
+        /*Important text*/
+.important-text {
+    font-weight: bold;
+    color: red;
+   
+}
+/* header styling*/
+        header {
+            background-color:rgba(55, 53, 53, 0.911);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px; 
+            min-height: 50px;
+        }
+
+        .nav-links {
+            margin-left: auto;
+        }
+
+        .nav-links ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links ul li {
+            padding: 8px 12px;
+            position: relative;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        button{
+            margin-left: 40%;
+        }
+     
